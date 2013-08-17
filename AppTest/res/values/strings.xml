@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AppTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="nombre_usuario">Anselmo Hernandez</string>
+    <string name="leyenda_canales">Todos los Canales</string>
+    <string name="leyenda_editar">Editar Canales</string>
+    <string name="leyenda_config">Configurar</string>
+    <string name="titulo_off">Desconectar</string>
+    <string name="leyenda_popular">Popularidad</string>
+    <string name="titulo_splash">SPLASH SCREEN</string>
+    <string name="leyenda_login">Entrar sin registro ></string>
+    
+</resources>

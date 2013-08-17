@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D8D8D8" >
+
+        <ImageView
+            android:id="@+id/star_item_canal"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/user_male" />
+
+        <TextView
+            android:id="@+id/titulo_item_canal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/nombre_usuario"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/btn_off_inicio"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/titulo_off" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/desc_recomend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D8D8D8"
+        android:text="@string/leyenda_canales"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/list_canal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_editar_inicio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="#FF8000"
+            android:drawableTop="@android:drawable/ic_menu_edit"
+            android:text="@string/leyenda_editar"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_config_inicio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="#FF8000"
+            android:drawableTop="@android:drawable/ic_menu_manage"
+            android:text="@string/leyenda_config"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>
