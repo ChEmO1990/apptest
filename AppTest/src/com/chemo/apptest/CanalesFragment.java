@@ -25,7 +25,7 @@ import com.chemo.apptest.datadummy.Noticia;
 public class CanalesFragment extends Fragment {
 	private ListView lista;
 	
-	//Lista de elementos para la listavHola comodmdomdomodmo
+	//Leeeeeista de elementos para la listavHola comodmdomdomodmo
 	private ArrayList<Noticia> items_nocicias = new ArrayList<Noticia>();
 	
 	@Override
